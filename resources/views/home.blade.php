@@ -27,7 +27,7 @@
                             </div>
                         </div>
                         @endforeach
-                      </div>
+                    </div>
 
                 
                    <nav aria-label="Pagination">
