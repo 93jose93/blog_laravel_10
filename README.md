@@ -1,6 +1,6 @@
 
 
-## Demostración de blog usando Laravel 8 con Bootstrap 5
+## Demostración de blog usando Laravel 10 con Bootstrap 5
 
 - Consumiendo la API pública para pruebas de https://randomuser.me/ y https://newsapi.org/.
 - Se utilizó una plantilla de Bootstrap 5.
