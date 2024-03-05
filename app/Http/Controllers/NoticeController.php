@@ -16,7 +16,7 @@ class NoticeController extends Controller
   
      public function index()
      {
-         $response = Http::get('https://newsapi.org/v2/everything?q=tesla&from=2024-01-23&sortBy=publishedAt&apiKey=563b76068a86434e9c23931d9d52068f');
+         $response = Http::get('https://newsapi.org/v2/everything?q=tesla&from=2024-02-05&sortBy=publishedAt&apiKey=563b76068a86434e9c23931d9d52068f');
          $articles = $response->json()['articles'];
      
          $authorsResponse = Http::get('https://randomuser.me/api/?results=' . count($articles));
